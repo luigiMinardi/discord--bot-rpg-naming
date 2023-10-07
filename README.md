@@ -78,3 +78,5 @@ Remember, you need to edit the name of the function (what is after `def` and bef
 This function name will be the command of the bot that you will call to change the nicknames (ih the eg. `-game`).  
 Since the function is the command name the name should not repeat.
 
+Also in the third line of the for loop when you have the `await member.edit` you should change the `member_dict_names_*` to the dict with the names of your game.  
+In the example the game is D&D so we are using `member_dict_names_ded`, if we want to create a function to play `chuchuco` we should change to `member_dict_names_chuchuco`.  
